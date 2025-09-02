@@ -1,0 +1,42 @@
+.account_information_outer{
+    border: 1px solid #ccc;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.information_section{
+    width: 70%;
+    height: 100%;
+    background: #f1c40f ;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_section{
+    width: 30%;
+    height: 100%;
+    background: #2c3e50 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bank_info_for_card{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background: #3498db;
+    height: 50%;
+}
+
+.system_info_for_card{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background: #9b59b6;
+    height: 50%;
+}

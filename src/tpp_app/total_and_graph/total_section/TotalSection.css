@@ -1,0 +1,11 @@
+.total_section_outer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e74c3c;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
