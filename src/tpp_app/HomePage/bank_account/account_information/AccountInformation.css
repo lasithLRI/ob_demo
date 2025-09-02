@@ -6,12 +6,13 @@
     width: 25%;
     height: 100%;
     display: flex;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.15);
 }
 
 .information_section{
     width: 70%;
     height: 100%;
-    background: #f1c40f ;
+
     display: flex;
     flex-direction: column;
 }
@@ -26,17 +27,34 @@
 }
 
 .bank_info_for_card{
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 14px;
-    background: #3498db;
-    height: 50%;
+
+    height: 100%;
 }
 
-.system_info_for_card{
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    background: #9b59b6;
-    height: 50%;
+.account_gbp {
+    font-size: 0.8em;
+    vertical-align: middle;
 }
+
+.account_balance {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #2c3e50;
+}
+
+.bank_name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.account_number {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+

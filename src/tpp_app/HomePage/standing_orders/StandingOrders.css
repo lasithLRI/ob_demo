@@ -1,9 +1,8 @@
-.latest_transactions_outer{
+.standing_orders_outer{
     width: 100%;
-    height: 16rem;
+    height: fit-content;
     display: flex;
     justify-content: start;
     align-items: start;
-    background: #9b59b6;
     padding: 2rem;
 }

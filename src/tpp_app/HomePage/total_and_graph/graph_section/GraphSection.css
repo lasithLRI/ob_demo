@@ -1,0 +1,16 @@
+.graph_section{
+    width: 100%;
+    height: 36vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    gap: 2rem;
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.15);
+}
+.graph_section h3 {
+    margin-left: 1rem;
+}

@@ -1,7 +1,6 @@
 .main_application_outer{
     width: 100%;
-    height: 100%;
-    background-color: blueviolet;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -9,6 +8,6 @@
 .home_content{
     width: 100%;
     height: 100%;
-    background-color: #2ecc71;
+
     padding: 2rem;
 }
