@@ -1,0 +1,10 @@
+.quick_action_outer{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background: #9b59b6;
+    padding-right: 6rem;
+    padding-bottom: 1rem;
+}

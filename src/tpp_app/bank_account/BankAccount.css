@@ -1,0 +1,10 @@
+.bank_account_outer{
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background: #e74c3c;
+    padding: 2rem;
+}

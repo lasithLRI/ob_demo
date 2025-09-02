@@ -1,0 +1,10 @@
+.standing_orders_outer{
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background: #e67e22;
+    padding: 2rem;
+}

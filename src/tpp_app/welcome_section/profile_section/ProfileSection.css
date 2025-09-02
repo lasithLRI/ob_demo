@@ -1,0 +1,21 @@
+.profile_outer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #3498db;
+    gap: 1.5rem;
+    padding-left: 2rem;
+}
+
+.image_section{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background: #e67e22;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
