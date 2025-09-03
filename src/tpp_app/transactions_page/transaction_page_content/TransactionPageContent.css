@@ -1,0 +1,17 @@
+.transaction_page_content_outer table {
+    border-collapse: collapse;
+}
+.transaction_page_content_outer th,
+.transaction_page_content_outer td,
+.transaction_page_content_outer .MuiTableCell-root {
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    vertical-align: middle;
+}
+.transaction_page_content_outer .MuiTableRow-root {
+    height: 2.5rem;
+}
+.transaction_page_content_outer .MuiTextField-root {
+    margin: 0;
+}

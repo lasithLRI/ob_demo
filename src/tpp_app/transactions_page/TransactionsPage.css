@@ -1,0 +1,14 @@
+.transactions_page_outer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100dvh - 3rem);
+}
+
+.transaction_content{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #3498db;
+}
