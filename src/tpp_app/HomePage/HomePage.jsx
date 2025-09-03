@@ -5,9 +5,11 @@ import StandingOrders from './standing_orders/StandingOrders';
 import TotalAndGraph from './total_and_graph/TotalAndGraph';
 import WelcomeSection from './welcome_section/WelcomeSection';
 import BodyTitle from './boty_titles/BodyTitle';
+import { useNavigate } from 'react-router-dom';
 
 
 const HomePage = () => {
+    const navigate = useNavigate();
     return (
         <div className="home_page_container">
             <WelcomeSection/>
@@ -15,7 +17,7 @@ const HomePage = () => {
                 <TotalAndGraph/>
                 <BodyTitle title="Connected Accounts" button_text={"Add Button"} varient={'contained'}/>
                 <BankAccount/>
-                <BodyTitle title="Latest Transactions" button_text={"View All"}/>
+                <BodyTitle title="Latest Transactions" button_text={"View All"} onClick={() => navigate('/transactions')}/>
                 <LatestTransactions/>
                 <BodyTitle title="Standing Orders" button_text={"View All"}/>
                 <StandingOrders/>
